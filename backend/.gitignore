@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# SQLite
+*.sqlite
+*.db
+
+# Backend
+backend/temp/
+backend/secrets/
