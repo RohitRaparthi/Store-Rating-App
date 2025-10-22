@@ -68,13 +68,13 @@ store-rating-app/
 
 ### 🔧 Backend (Express + SQLite)
 
-```bash
+```
 cd backend
 npm install
 node server.js
 Runs on http://localhost:4000
-
-🌐 Frontend (React)
+```
+### 🌐 Frontend (React)
 
 cd frontend
 npm install
@@ -126,11 +126,13 @@ GET /store-owner/average-rating
 Store’s average rating
 
 ✅ Validations
-Field	Rule
-Name	20–60 characters
-Email	Valid format
-Address	Max 400 characters
-Password	8–16 chars, ≥1 uppercase, ≥1 special char
+| Field    | Rule                                      |
+| -------- | ----------------------------------------- |
+| Name     | 20–60 characters                          |
+| Email    | Valid format                              |
+| Address  | Max 400 characters                        |
+| Password | 8–16 chars, ≥1 uppercase, ≥1 special char |
+
 
 🙌 Acknowledgements
 Assignment by Roxiler Systems

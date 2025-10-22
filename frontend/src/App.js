@@ -6,13 +6,14 @@ import LoginPage from './pages/LoginPage';
 import AdminDashboard from './pages/AdminDashboard';
 import UserDashboard from './pages/UserDashboard';
 import StoreOwnerDashboard from './pages/StoreOwnerDashboard';
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LoginPage />} />
-        
+        <Route path="/register" element={<RegisterPage />} />
         <Route path="/admin" element={
           <PrivateRoute allowedRoles={['admin']}>
             <AdminDashboard />

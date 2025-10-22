@@ -1,0 +1,47 @@
+.store-dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  padding-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  border-radius: 0 0 15px 15px;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #007bff !important;
+  color: #fff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.05);
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+
+.badge {
+  font-size: 0.9rem;
+}
+
+.btn-outline-danger {
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff4d4d;
+  color: #fff;
+  transform: scale(1.05);
+}
