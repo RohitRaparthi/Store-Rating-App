@@ -75,17 +75,18 @@ node server.js
 Runs on http://localhost:4000
 ```
 ### 🌐 Frontend (React)
-
+```
 cd frontend
 npm install
 npm start
 Runs on http://localhost:3000
-
+```
 
 REACT_APP_API_BASE_URL=http://localhost:4000/api
 
+---
 
-🧪 Test Users (Seed Data)
+## 🧪 Test Users (Seed Data)
 
 | Role        | Email               | Password   |
 | ----------- | --------------------| ---------- |
@@ -93,8 +94,9 @@ REACT_APP_API_BASE_URL=http://localhost:4000/api
 | Normal User | [user@example.com]  | User\@123  |
 | Store Owner | [owner@example.com] | Owner\@123 |
 
+---
 
-🔄 API Overview
+## 🔄 API Overview
 POST /auth/login
 Login and get token
 
@@ -125,7 +127,10 @@ List users who rated their store
 GET /store-owner/average-rating
 Store’s average rating
 
-✅ Validations
+---
+
+## ✅ Validations
+
 | Field    | Rule                                      |
 | -------- | ----------------------------------------- |
 | Name     | 20–60 characters                          |
@@ -133,7 +138,10 @@ Store’s average rating
 | Address  | Max 400 characters                        |
 | Password | 8–16 chars, ≥1 uppercase, ≥1 special char |
 
+---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
+
 Assignment by Roxiler Systems
+
 Developed by [RohitRaparthi]
