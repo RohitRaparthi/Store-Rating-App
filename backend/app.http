@@ -1,5 +1,5 @@
 
-POST http://localhost:4000/api/auth/login
+POST https://store-rating-app-sch8.onrender.com/api/auth/login
 Content-Type: application/json
 
 {
